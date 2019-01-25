@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Abel Z. Shiferaw"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Abel Z. Shiferaw"
+description              : "Data Science Portfolio."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,10 +106,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Abel Z. Shiferaw"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Data Scientist"
+  location         : "Washington, D.C."
   email            :
   links:
     - label: "Email"
@@ -126,11 +126,13 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/AbelZerihunS"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/abel-z-shiferaw-272b19b/"
 # Site Footer
 footer:
   links:
@@ -293,3 +295,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# _pages
+
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
